@@ -1,59 +1,142 @@
-# OnlineExam
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.2.19.
+# Online Exam Platform
 
-## Development server
+A modern online examination platform built with Angular 21, designed to provide a structured and interactive experience for students taking online exams.
 
-To start a local development server, run:
+The application includes authentication, diploma browsing, exam management, timed examinations, and results visualization.
+
+## Features
+
+### Authentication & User Management
+- User registration and login.
+- Multi-step authentication flow.
+- Forgot and reset password functionality.
+- Route protection using Angular Guards.
+- Profile management and email verification.
+
+### Diploma Management
+- Browse available diplomas.
+- View diploma details.
+- Paginated diploma listing.
+- Show More functionality.
+
+### Examination System
+- Browse exams associated with diplomas.
+- Start and complete timed examinations.
+- Countdown timer.
+- Navigate between questions.
+- Select and track answers.
+- Submit exam answers.
+
+### Results
+- Display examination results.
+- Visualize correct and incorrect answers.
+- Results summary with progress indicators.
+
+### UI & User Experience
+- Responsive dashboard layout.
+- Reusable standalone components.
+- Dynamic breadcrumbs.
+- Toast notifications.
+- Interactive dialogs and forms.
+
+## Tech Stack
+
+| Technology | Purpose |
+|---|---|
+| Angular 21 | Frontend framework |
+| TypeScript | Application logic |
+| Angular Signals | Reactive state management |
+| RxJS | Asynchronous data handling |
+| Angular Router | Navigation and route protection |
+| PrimeNG | UI components |
+| Tailwind CSS 4 | Styling |
+| Font Awesome | Icons |
+| ngx-sonner | Toast notifications |
+| Vitest | Unit testing |
+| Angular SSR | Server-side rendering support |
+
+## Architecture
+
+The application follows a feature-based architecture with reusable components and dedicated services.
+
+- **Core:** Shared application services and configuration.
+- **Features:** Authentication, diplomas, exams, and account settings.
+- **Shared:** Reusable UI components and utilities.
+- **Services:** API communication and business logic.
+- **Interfaces:** TypeScript models and API response types.
+- **Guards:** Authentication and authorization route protection.
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js
+- npm
+- Angular CLI 21
+
+### Installation
+
+Clone the repository:
 
 ```bash
-ng serve
+git clone https://github.com/Dev-Mahmoud28/online-exam.git
 ```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
-
-## Code scaffolding
-
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+Navigate to the project directory:
 
 ```bash
-ng generate component component-name
+cd online-exam
 ```
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+Install dependencies:
 
 ```bash
-ng generate --help
+npm install
 ```
 
-## Building
+### Development Server
 
-To build the project run:
+Run the application locally:
 
 ```bash
-ng build
+npm start
 ```
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+Open your browser at:
 
-## Running unit tests
+```text
+http://localhost:4200
+```
 
-To execute unit tests with the [Vitest](https://vitest.dev/) test runner, use the following command:
+### Production Build
+
+Generate an optimized production build:
 
 ```bash
-ng test
+npm run build
 ```
 
-## Running end-to-end tests
+### Unit Tests
 
-For end-to-end (e2e) testing, run:
+Run unit tests:
 
 ```bash
-ng e2e
+npm test
 ```
 
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
+## Deployment
 
-## Additional Resources
+The application can be deployed to Vercel after configuring the appropriate Angular build output and routing settings.
 
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+## Author
+
+**Mahmoud Mohamed**
+
+Frontend Developer | Angular
+
+- GitHub: [Dev-Mahmoud28](https://github.com/Dev-Mahmoud28)
+
+---
+
+Built with Angular ❤️
