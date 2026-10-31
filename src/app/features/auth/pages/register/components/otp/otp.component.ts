@@ -5,7 +5,7 @@ import { StepperComponent } from '../stepper/stepper.component';
 import { InputOtpModule } from 'primeng/inputotp';
 import { FormsModule } from '@angular/forms';
 import { ButtonComponent } from '../../../../../../shared/components/ui/button/button.component';
-import { AuthService } from '../../../../../../../../dist/auth';
+import { AuthService } from 'auth';
 import { toast } from 'ngx-sonner';
 
 @Component({

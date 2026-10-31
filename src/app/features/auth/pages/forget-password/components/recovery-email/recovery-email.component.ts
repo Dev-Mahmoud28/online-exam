@@ -5,7 +5,7 @@ import { Router, RouterLink } from '@angular/router';
 import { InputComponent } from '../../../../../../shared/components/business/input/input.component';
 import { ButtonComponent } from '../../../../../../shared/components/ui/button/button.component';
 import { ErrorBannerComponent } from '../../../../../../shared/components/ui/error-banner/error-banner.component';
-import { AuthService } from '../../../../../../../../dist/auth';
+import { AuthService } from 'auth';
 import { Subscription } from 'rxjs';
 
 @Component({

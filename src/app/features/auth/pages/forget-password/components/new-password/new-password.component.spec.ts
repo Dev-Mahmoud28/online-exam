@@ -1,7 +1,7 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { NewPasswordComponent } from './new-password.component';
-import { AuthService } from '../../../../../../../../dist/auth';
+import { AuthService } from 'auth';
 import { ActivatedRoute, Router } from '@angular/router';
 import { Observable, of } from 'rxjs';
 import { toast } from 'ngx-sonner';

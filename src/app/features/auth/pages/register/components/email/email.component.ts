@@ -6,7 +6,7 @@ import { ErrorBannerComponent } from '../../../../../../shared/components/ui/err
 import { ButtonComponent } from '../../../../../../shared/components/ui/button/button.component';
 import { isPlatformBrowser } from '@angular/common';
 import { Router, RouterLink } from '@angular/router';
-import { AuthService } from '../../../../../../../../dist/auth';
+import { AuthService } from 'auth';
 
 @Component({
   selector: 'app-email',

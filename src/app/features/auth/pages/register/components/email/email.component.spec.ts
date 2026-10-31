@@ -2,7 +2,7 @@ import { ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { EmailComponent } from './email.component';
 import { FormControl, FormGroup, Validators } from '@angular/forms';
-import { AuthService } from '../../../../../../../../dist/auth';
+import { AuthService } from 'auth';
 import { ActivatedRoute, Router } from '@angular/router';
 import { RegisterFormService } from '../../services/register-form.service';
 import { of } from 'rxjs';

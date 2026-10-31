@@ -4,7 +4,7 @@ import { InputComponent } from '../../../../shared/components/business/input/inp
 import { FormControl, FormGroup, ReactiveFormsModule, Validators } from '@angular/forms';
 import { ErrorBannerComponent } from '../../../../shared/components/ui/error-banner/error-banner.component';
 import { Router, RouterLink } from '@angular/router';
-import { AuthService } from '../../../../../../dist/auth';
+import { AuthService } from 'auth';
 import { isPlatformBrowser } from '@angular/common';
 import {takeUntilDestroyed} from '@angular/core/rxjs-interop';
 

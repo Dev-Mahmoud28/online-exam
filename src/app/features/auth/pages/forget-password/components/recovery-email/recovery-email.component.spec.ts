@@ -2,7 +2,7 @@ import { ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { RecoveryEmailComponent } from './recovery-email.component';
 import { of } from 'rxjs';
-import { AuthService } from '../../../../../../../../dist/auth';
+import { AuthService } from 'auth';
 import { ActivatedRoute, Router } from '@angular/router';
 import { By } from '@angular/platform-browser';
 

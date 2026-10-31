@@ -2,7 +2,7 @@ import { ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { OtpComponent } from './otp.component';
 import { of } from 'rxjs';
-import { AuthService } from '../../../../../../../../dist/auth';
+import { AuthService } from 'auth';
 import { ActivatedRoute, Router } from '@angular/router';
 import { toast } from 'ngx-sonner';
 import { By } from '@angular/platform-browser';

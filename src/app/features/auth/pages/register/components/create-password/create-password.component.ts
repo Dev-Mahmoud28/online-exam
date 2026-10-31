@@ -1,4 +1,4 @@
-import { AuthService } from './../../../../../../../../dist/auth';
+import { AuthService } from 'auth';
 import { Component, DestroyRef, inject, OnDestroy, OnInit, PLATFORM_ID, signal } from '@angular/core';
 import { InputComponent } from '../../../../../../shared/components/business/input/input.component';
 import { ButtonComponent } from '../../../../../../shared/components/ui/button/button.component';

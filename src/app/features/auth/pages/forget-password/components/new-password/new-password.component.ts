@@ -5,7 +5,7 @@ import { InputComponent } from '../../../../../../shared/components/business/inp
 import { ButtonComponent } from '../../../../../../shared/components/ui/button/button.component';
 import { ErrorBannerComponent } from '../../../../../../shared/components/ui/error-banner/error-banner.component';
 import { ActivatedRoute, Router, RouterLink } from '@angular/router';
-import { AuthService } from '../../../../../../../../dist/auth';
+import { AuthService } from 'auth';
 import { toast } from 'ngx-sonner';
 import { passwordValidation } from '../../../../../../shared/utils/password-validation';
 import { takeUntilDestroyed } from '@angular/core/rxjs-interop';

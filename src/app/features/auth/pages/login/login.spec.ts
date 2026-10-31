@@ -1,7 +1,7 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { Login } from './login.component';
-import { AuthService } from '../../../../../../dist/auth';
+import { AuthService } from 'auth';
 import { ActivatedRoute, Router } from '@angular/router';
 import { of } from 'rxjs';
 import { By } from '@angular/platform-browser';

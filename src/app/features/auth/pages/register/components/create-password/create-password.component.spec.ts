@@ -4,7 +4,7 @@ import { CreatePasswordComponent } from './create-password.component';
 import { FormControl, FormGroup, Validators } from '@angular/forms';
 import { of } from 'rxjs';
 import { passwordValidation } from '../../../../../../shared/utils/password-validation';
-import { AuthService } from '../../../../../../../../dist/auth';
+import { AuthService } from 'auth';
 import { Router } from '@angular/router';
 import { RegisterFormService } from '../../services/register-form.service';
 import { toast } from 'ngx-sonner';
